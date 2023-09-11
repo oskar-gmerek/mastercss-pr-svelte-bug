@@ -9,9 +9,10 @@
         CSSProvider = (await import("@master/css.svelte")).CSSProvider;
     });
 </script>
- 
-<CSSProvider config={import("../master.css")}>
+ <svelte:component this={CSSProvider} config={import('../master.css')}>
+ <!-- <CSSProvider config={import("../master.css")}> -->
     <div class="fg:black bg:green-70 h:full w:full min-h:100vh min-w:100vw">
         <slot />
     </div>
-</CSSProvider>
+<!-- </CSSProvider> -->
+</svelte:component>

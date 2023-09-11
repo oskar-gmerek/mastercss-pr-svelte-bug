@@ -20,7 +20,7 @@
 </div>
 
 <div class="flex flex:column jc:center w:500 b:3|solid|red">
-    <h2>SCREENSHOT OF CORRECT STYLES  (CURRENT PAGE)</h2>
+    <h2 class="@fade|1s|infinite">SCREENSHOT OF CORRECT STYLES  (CURRENT PAGE)</h2>
     
     <img src={blackongreen}>
 </div>
